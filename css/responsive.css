@@ -519,6 +519,7 @@
   }
 
   .owl-theme .owl-controls {
+    margin-top: -70px;
     /* display: none !important; */
   }
 
