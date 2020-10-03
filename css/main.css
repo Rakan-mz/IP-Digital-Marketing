@@ -1,4 +1,10 @@
-
+/*
+Theme Name:       SlickBiz - Bootstrap 4 Template
+Author:           UIdeck
+Author URI:       http://uideck.com
+Text Domain:      UIdeck
+Domain Path:      /languages/
+*/
 
 /* ==========================================================================
    IMPORT GOOGLE FONTS
@@ -1241,15 +1247,17 @@ button:focus {
 
 @keyframes pulse-border {
   0% {
+    -ms-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    -o-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
     -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
-    ;
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
     opacity: 1;
   }
 
   100% {
+    -ms-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    -o-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
     -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
-    ;
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
     opacity: 0;
   }
