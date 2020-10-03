@@ -213,7 +213,8 @@
     height: 45px;
     padding: 15px 15px; }
   .hero-area .intro-img {
-    padding: 30px 0 0px; }
+        padding: 30px 10px 0px;
+ }
   .section {
     padding: 155px 0px; }
     .team-word{
