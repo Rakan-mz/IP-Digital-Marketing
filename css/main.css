@@ -1,10 +1,4 @@
-/*
-Theme Name:       SlickBiz - Bootstrap 4 Template
-Author:           UIdeck
-Author URI:       http://uideck.com
-Text Domain:      UIdeck
-Domain Path:      /languages/
-*/
+
 
 /* ==========================================================================
    IMPORT GOOGLE FONTS
@@ -378,7 +372,7 @@ button:focus {
   height: 100%;
   border-radius: 100%;
   border: 7px solid transparent;
-  border-top-color: #3c9cfd;
+  border-top-color: #97084b;
 }
 
 #loader-1:before {
@@ -1247,11 +1241,15 @@ button:focus {
 
 @keyframes pulse-border {
   0% {
+    -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    ;
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
     opacity: 1;
   }
 
   100% {
+    -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    ;
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
     opacity: 0;
   }
@@ -2004,8 +2002,8 @@ button:focus {
 
   transform-origin: center;
   transform-box: fill-box;
-  backface-visibility:hidden;
-	transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 
 @keyframes bounce-7 {
@@ -2044,26 +2042,27 @@ button:focus {
   /* animation-duration: 3s;
   animation-iteration-count: infinite; */
   animation: bounce-2 2s infinite linear;
-    animation-delay: 5s;
+  animation-delay: 5s;
   transform-origin: center;
   transform-box: fill-box;
-  backface-visibility:hidden;
-	transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 
 @keyframes bounce-2 {
   0% {
     -webkit-transform: translateX(0) translateZ(0) rotateY(0);
-            transform: translateX(0) translateZ(0) rotateY(0);
+    transform: translateX(0) translateZ(0) rotateY(0);
     -webkit-transform-origin: 0% 50%;
-            transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
   }
+
   100% {
     -webkit-transform: translateX(-100%) translateZ(160px) rotateY(180deg);
-            transform: translateX(-100%) translateZ(160px) rotateY(180deg);
+    transform: translateX(-100%) translateZ(160px) rotateY(180deg);
     -webkit-transform-origin: 100% 0%;
-            transform-origin: 100% 0%;
-  }  
+    transform-origin: 100% 0%;
+  }
 }
 
 
@@ -2076,8 +2075,8 @@ button:focus {
   animation: bounce-3 2s infinite linear;
   transform-origin: center;
   transform-box: fill-box;
-  backface-visibility:hidden;
-	transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 
 @keyframes bounce-3 {
@@ -2085,15 +2084,16 @@ button:focus {
 
   0% {
     -webkit-transform: translateY(0) rotateX(0);
-            transform: translateY(0) rotateX(0);
+    transform: translateY(0) rotateX(0);
     -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
   }
+
   100% {
     -webkit-transform: translateY(-100%) rotateX(180deg);
-            transform: translateY(-100%) rotateX(180deg);
+    transform: translateY(-100%) rotateX(180deg);
     -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
   }
 }
 
@@ -2106,18 +2106,19 @@ button:focus {
   /* animation-delay: 3s; */
   transform-origin: center;
   transform-box: fill-box;
-  backface-visibility:hidden; 
-	 transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 
 @keyframes bounce-4 {
   0% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
+
   100% {
     -webkit-transform: translateX(20px);
-            transform: translateX(20px);
+    transform: translateX(20px);
   }
 }
 
@@ -2132,8 +2133,8 @@ button:focus {
   animation-delay: 3s;
   transform-origin: center;
   transform-box: fill-box;
-  backface-visibility:hidden;
-	transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 
 @keyframes bounce-5 {
@@ -2173,76 +2174,87 @@ button:focus {
   /* animation-duration: 2s;
   animation-iteration-count: infinite; */
   animation: ping 3s linear infinite both;
-  /* animation-delay: 3s; */ 
+  /* animation-delay: 3s; */
   transform-origin: center;
   transform-box: fill-box;
-  backface-visibility:hidden;
-	transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 
 @keyframes ping {
   0% {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
+
   20% {
     -webkit-transform: translate(2px, -2px);
-            transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
   }
+
   40% {
     -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
   }
+
   60% {
     -webkit-transform: translate(-2px, 2px);
-            transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
   }
+
   80% {
     -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
   }
+
   100% {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
 }
 
-#sq01,#sq02 {
+#sq01,
+#sq02 {
   animation-name: ping;
   /* animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1); */
   /* animation-duration: 2s;
   animation-iteration-count: infinite; */
   animation: ping 3s linear infinite both;
-  animation-delay: 2s; 
+  animation-delay: 2s;
   transform-origin: center;
   transform-box: fill-box;
-  backface-visibility:hidden;
-	transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 
 @keyframes ping {
   0% {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
+
   20% {
     -webkit-transform: translate(2px, -2px);
-            transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
   }
+
   40% {
     -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
   }
+
   60% {
     -webkit-transform: translate(-2px, 2px);
-            transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
   }
+
   80% {
     -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
   }
+
   100% {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
 }
