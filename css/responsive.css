@@ -372,7 +372,9 @@
     margin-bottom: 18px;
     margin-top: 15px; }
   .back-to-top {
-    display: none !important; } }
+/*     display: none !important; */
+  }
+}
 
 @media (min-width: 375px) and (max-width: 667px) {
   #showcase .showcase-slider .screenshot-thumb > .hover-content {
