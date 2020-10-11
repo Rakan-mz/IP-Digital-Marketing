@@ -773,7 +773,7 @@ button:focus {
   position: relative;
   margin-left: 30px;
   border: 1px solid #b32a44;
-  margin-top: 12px;
+  margin-top: -12px;
 }
 
 #features .feature-item .feature-icon i {
