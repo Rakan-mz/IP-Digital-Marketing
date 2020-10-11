@@ -1,10 +1,4 @@
-/*
-Theme Name:       SlickBiz - Bootstrap 4 Template
-Author:           UIdeck
-Author URI:       http://uideck.com
-Text Domain:      UIdeck
-Domain Path:      /languages/
-*/
+
 
 /* ==========================================================================
    IMPORT GOOGLE FONTS
@@ -510,6 +504,10 @@ button:focus {
   color: #fff;
 }
 
+.nav-item {
+  text-align: center;
+}
+
 .navbar-expand-md .navbar-nav .nav-link:focus,
 .navbar-expand-md .navbar-nav .nav-link:hover,
 .navbar-expand-md .navbar-nav .nav-link:hover:before {
@@ -596,6 +594,7 @@ button:focus {
   font-weight: 600;
   line-height: 60px;
   margin-bottom: 20px;
+  text-align: right;
 }
 
 .hero-area .contents p {
@@ -629,13 +628,19 @@ button:focus {
         background: #fff;
         color: #3ecf8e; } */
 .hero-area .intro-img {
-  padding: 180px 0 0px;
+  /* padding: 180px 0 0px; */
+  margin-top: -45px;
 }
 
 .hero-area .intro-img img {
   display: block;
   height: auto;
   max-width: 100%;
+}
+
+.pie-img {
+  display: flex;
+  justify-content: center;
 }
 
 /* ==========================================================================
@@ -744,6 +749,7 @@ button:focus {
 }
 
 #features .feature-item {
+  text-align: right;
   padding: 30px;
   overflow: hidden;
   -moz-transition: all .8s ease;
@@ -752,7 +758,7 @@ button:focus {
 }
 
 #features .feature-item .feature-icon {
-  background: #c38696;
+  background: #b32a44;
   width: 100px;
   height: 100px;
   margin: 0px auto;
@@ -765,14 +771,14 @@ button:focus {
   display: block;
   border-radius: 50%;
   position: relative;
-  margin-right: 30px;
+  margin-left: 30px;
   border: 1px solid #b32a44;
   margin-top: 12px;
 }
 
 #features .feature-item .feature-icon i {
   font-size: 40px;
-  color: #b32a44;
+  color: #cac6c8;
   position: absolute;
   left: 0;
   right: 0;
@@ -798,7 +804,7 @@ button:focus {
 }
 
 #features .feature-item:hover .feature-icon {
-  background: #b32a44;
+  background: #c38696;
   -moz-transition: all .8s ease;
   -webkit-transition: all .8s ease;
   transition: all .8s ease;
@@ -2181,7 +2187,7 @@ button:focus {
   /* animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1); */
   /* animation-duration: 2s;
   animation-iteration-count: infinite; */
-  animation: ping 3s linear infinite both;
+  animation: ping 5s linear infinite both;
   /* animation-delay: 3s; */
   transform-origin: center;
   transform-box: fill-box;
@@ -2227,7 +2233,7 @@ button:focus {
   /* animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1); */
   /* animation-duration: 2s;
   animation-iteration-count: infinite; */
-  animation: ping 3s linear infinite both;
+  animation: ping 6s linear infinite both;
   animation-delay: 2s;
   transform-origin: center;
   transform-box: fill-box;
