@@ -1,4 +1,10 @@
-
+/*
+Theme Name:       SlickBiz - Bootstrap 4 Template
+Author:           UIdeck
+Author URI:       http://uideck.com
+Text Domain:      UIdeck
+Domain Path:      /languages/
+*/
 
 /* ==========================================================================
    IMPORT GOOGLE FONTS
@@ -757,6 +763,10 @@ button:focus {
   transition: all .8s ease;
 }
 
+.feature-info {
+  margin-top: 25px;
+}
+
 #features .feature-item .feature-icon {
   background: #b32a44;
   width: 100px;
@@ -773,7 +783,7 @@ button:focus {
   position: relative;
   margin-left: 30px;
   border: 1px solid #b32a44;
-  margin-top: -12px;
+  margin-top: 12px;
 }
 
 #features .feature-item .feature-icon i {
