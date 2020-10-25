@@ -177,7 +177,7 @@
   }
 
   .hero-area .contents {
-    padding: 200px 0 0px;
+    padding: 200px 0px;
   }
 
   #features .feature-item p {
@@ -319,6 +319,7 @@
   }
 
   .hero-area .contents h2 {
+    
     font-size: 30px;
     line-height: 35px;
     margin-bottom: -40px;
@@ -328,7 +329,7 @@
   }
 
   .hero-area .contents {
-    padding: 200px 0 0px;
+    padding: 200px 0px;
   }
 
   .hero-area .contents p {
